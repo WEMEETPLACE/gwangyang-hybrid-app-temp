@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" id="browser_mode" content="IE=edge" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>광양앱</title>
+<link rel="stylesheet" href="css/base.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+	<div class="m-wwrap">
+		<div class="m-wrap">
+			<div class="ctz-menu2">
+				<a href="ctz-menu2-sub.html"><img src="image/ctz-menu2-btn.svg"></a>
+			</div>		
+		</div>
+		<div class="footer">
+			<button class="footer-btn" onclick="toggleActionSheet()"></button>		
+		</div>	
+		<div class="action-sheet" id="actionSheet" >
+			<div class="card-wrap">
+				<div class="card">
+					<div class="front"><img src="image/ctz-card-qr.svg" alt=""></div>
+					<div class="back"><img src="image/ctz-card-qr2.svg" alt=""></div>
+				</div>
+			</div>	
+			<button class="card-btn"><img src="image/qr-btn.svg" alt=""></button>
+		</div>				
+	</div>	
+	
+	<script>
+		// Action Sheet 보이기 / 감추기 토글
+		function toggleActionSheet() {
+			var actionSheet = document.getElementById("actionSheet");
+			if (actionSheet.classList.contains("active")) {
+				hideActionSheet();
+			} else {
+				showActionSheet();
+			}
+		}
+
+		// Action Sheet 보이기
+		function showActionSheet() {
+			document.getElementById("actionSheet").classList.add("active");
+		}
+
+		// Action Sheet 감추기
+		function hideActionSheet() {
+			document.getElementById("actionSheet").classList.remove("active");
+		}
+
+		//시민증 qr코드보기			
+		$('.card-btn').on('click', function () {
+		  $('.card').toggleClass('flipped');
+		});		
+	</script>	
+</body>	
+</html> 
+	

@@ -1,0 +1,167 @@
+@charset "utf-8"; 
+
+* {box-sizing: border-box;padding: 0;margin: 0} 
+
+body { font-family: "Pretendard GOV","Noto Sans KR","맑은고딕"; color: #222; font-weight: 400;width: 100%;height: 100vh;display: flex;align-items: center;justify-content: center; } 
+
+ul, li, ol, li, dt, dd { list-style: none } 
+
+a { color: #666; text-decoration: none } 
+
+img { border: 0; display: block; } 
+
+::-webkit-scrollbar { width: 8px; height: 8px; } 
+::-webkit-scrollbar-thumb { background-color: #c1c1c1; border-radius: 25px; border: 0px solid transparent; background-clip: padding-box; } 
+::-webkit-scrollbar-thumb:hover { background-color: #999999; } 
+::-webkit-scrollbar-track { background-color: #f1f1f1; border-radius: 2px; } 
+
+.m-wwrap{position: relative;height: 883px;/*padding: 19px;*/}
+.m-wwrap:before{content:'';display: inline-block;background: url("../image/mobile-bg.svg") center no-repeat;width: 435px;height: 883px;position: absolute;/* padding: 19px; */top: -19px;left: -22px;}
+.m-wrap{width:390px;height: 755px;overflow-y: auto;border-top-left-radius: 16px;border-top-right-radius: 16px;z-index: 1;position: relative;}
+.intro{height: 100%;}
+.intro .intro-head{background: url("../image/intro-head.svg") center top no-repeat;width: 390px;height: 75px;}
+.intro .intro-cont-bg{width: 390px;height: calc(100% - 75px);display: flex;justify-content: center;align-items: center;}
+.intro .intro-cont{background: url("../image/intro-cont.svg") center top no-repeat;width: 390px;height: 602px;position: relative;}
+.intro .intro-select{display: flex;align-items: center;justify-content: center;padding-top: 109px;gap: 15px;}
+.intro .intro-select .select{box-shadow: 3px 7px 20px rgb(0 0 0 / 13%);border-radius: 15px;}
+
+.main-ctz{background: url("../image/main-ctz.svg") center top no-repeat;height: 1245px;overflow-y: auto;}
+.main-ctz .ctz-vs{background: url("../image/main-ctz-vs.png") center top no-repeat;width: 100%;height: 197px;margin-top: 292px;}
+.main-ctz .ctz-menu{margin-top: 33px;}
+.main-ctz .ctz-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.main-ctz .ctz-menu ul li{}
+.main-ctz .ctz-menu ul li a{width:100%;height:100%;display:inline-block;}
+.footer{background: url("../image/footer.svg") center no-repeat;position: absolute;width: 390px;height: 97px;left: 50%;bottom: 37px;z-index: 9;display: flex;justify-content: center;transform: translateX(-50%);border-bottom-left-radius: 16px;border-bottom-right-radius: 16px;}
+.footer button.footer-btn{background: url("../image/footer-ctz.svg") center no-repeat;width:54px;height:54px;margin: 0 auto;margin-top: -8px;border: none;cursor: pointer;}
+.footer button.footer-btn2{background: url("../image/footer-nctz.svg") center no-repeat;}
+
+.ctz-menu2{background: url("../image/ctz-menu2-bg.svg") center top no-repeat;height: 1049px;overflow-y: auto;}
+.ctz-menu2 a{
+    margin-top: 390px;
+    display: inline-block;
+    float: right;
+    margin-right: 5px;
+}
+.ctz-menu2-sub{background: url("../image/ctz-menu2-sub.svg") center top no-repeat;height: 1363px;overflow-y: auto;}
+
+/* 디지털시민 */
+.main-nctz{background: url("../image/main-nctz.svg") center top no-repeat;height: 1475px;overflow-y: auto;}
+
+
+/* 시민증 */
+   #actionSheet {
+    position: absolute;
+    bottom: 38px;
+    left: 0;
+    width: 100%;
+    height: 430px;
+    flex-direction: column;
+    transition: 1s;
+
+    /* 서서히 나타나는 효과 */
+    visibility: hidden;
+    opacity: 0;
+    background: linear-gradient(90deg, rgba(240,238,252,1) 0%, rgba(229,243,244,1) 100%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+  #actionSheet.active {
+    /* 서서히 나타나는 효과 */
+    visibility: visible;
+    opacity: 1;
+  }
+  #actionSheet:before{content:'';display:inline-block;width:39px;height:5px;background: #C6B7D4;border-radius: 100px;margin: 10px 0;}
+  .action-options {
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* 세로 컨텐츠가 늘어나는 경우 스크롤이 생기도록 설정 */
+    overflow: auto;
+
+    max-height: 300px;
+    /* 아래에서 위로 나타나는 효과, max-height과 동일하게 작성 */
+    position: relative;
+    bottom: -300px;
+
+    transition: 1s;
+  }
+  #actionSheet.active .action-options {
+    /* 아래에서 위로 나타나는 효과, max-height과 동일하게 작성 */
+    bottom: 0;
+  }
+
+  .option {
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .option.close {
+    text-align: center;
+  }
+
+  .option:hover {
+    background-color: #f2f2f2;
+  }
+#actionSheet .ctz-card{}
+#actionSheet button{
+    border: 0;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.card-wrap{
+  width: 357px;
+  height: 225px;
+  position :relative;
+  perspective :800px;
+  border-radius :4px;
+}
+	.card{
+  width :100%;
+  height :100%;
+  position :absolute;
+  transform-style :preserve-3d;
+  transition :transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor :pointer;
+}
+  
+
+	.front{
+    position:absolute;
+    width :100%;
+    height :100%;
+    backface-visibility :hidden;
+    display :flex;
+    background:#fff;
+    justify-content :center;
+    align-items :center;
+    color :#47525D;
+}
+  .back
+	{
+		    position:absolute;
+    width :100%;
+    height :100%;
+    backface-visibility :hidden;
+    border-radius :6px;
+    display :flex;
+    justify-content :center;
+    align-items :center;
+		transform: rotateY(180deg)}
+
+  .flipped
+	{transform: rotateY(180deg)}
+  	

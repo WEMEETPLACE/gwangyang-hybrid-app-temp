@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="110" viewBox="0 0 170 110">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.066" y1="0.934" x2="0.934" y2="0.057" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3e4ed3"/>
+      <stop offset="1" stop-color="#6c80f8"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="사각형_96817" data-name="사각형 96817" width="33.399" height="27.61" fill="none" stroke="#fff" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="광양소식" transform="translate(-20 -522)">
+    <rect id="사각형_40591" data-name="사각형 40591" width="170" height="110" rx="8" transform="translate(20 522)" fill="url(#linear-gradient)"/>
+    <text id="광양소식-2" data-name="광양소식" transform="translate(40 561)" fill="#fff" font-size="18" font-family="Gwangyang Touching" letter-spacing="-0.025em"><tspan x="0" y="0">광양소식</tspan></text>
+    <text id="바로가기" transform="translate(41 585)" fill="#fff" font-size="14" font-family="Pretendard-Light, Pretendard" font-weight="300" letter-spacing="-0.025em"><tspan x="0" y="0">바로가기</tspan></text>
+    <g id="그룹_138059" data-name="그룹 138059" transform="translate(139.3 580.159)" opacity="0.3">
+      <g id="그룹_138058" data-name="그룹 138058" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="패스_266152" data-name="패스 266152" d="M23.491,21.219a11.858,11.858,0,0,0,0-16.791" transform="translate(5.203 0.981)" fill="none" stroke="#fff" stroke-width="3"/>
+        <path id="패스_266153" data-name="패스 266153" d="M23.491,21.219a11.858,11.858,0,0,0,0-16.791" transform="translate(5.203 0.981)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="패스_266154" data-name="패스 266154" d="M19.959,7.961a5.77,5.77,0,0,1,0,8.161" transform="translate(4.421 1.764)" fill="none" stroke="#fff" stroke-width="3"/>
+        <path id="패스_266155" data-name="패스 266155" d="M19.959,7.961a5.77,5.77,0,0,1,0,8.161" transform="translate(4.421 1.764)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="패스_266156" data-name="패스 266156" d="M18.448,26.166,6.167,19.354V7.812L18.448,1Z" transform="translate(1.366 0.222)" fill="none" stroke="#fff" stroke-width="3"/>
+        <path id="패스_266157" data-name="패스 266157" d="M18.448,26.166,6.167,19.354V7.812L18.448,1Z" transform="translate(1.366 0.222)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <rect id="사각형_96815" data-name="사각형 96815" width="6.311" height="11.542" transform="translate(1.221 8.034)" fill="none" stroke="#fff" stroke-width="3"/>
+        <rect id="사각형_96816" data-name="사각형 96816" width="6.311" height="11.542" transform="translate(1.221 8.034)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+    <path id="Icon_ion-ios-arrow-forward" data-name="Icon ion-ios-arrow-forward" d="M13.691,9.256,11.375,6.941a.436.436,0,0,1,0-.618.441.441,0,0,1,.62,0l2.624,2.623a.437.437,0,0,1,.013.6L12,12.19a.438.438,0,0,1-.62-.618Z" transform="translate(81.813 570.744)" fill="#fff"/>
+  </g>
+</svg>

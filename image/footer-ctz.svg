@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3d56cd;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 12px;
+        font-family: Gwangyang Touching;
+        letter-spacing: -0.025em;
+      }
+    </style>
+  </defs>
+  <g id="시민증_버튼" data-name="시민증 버튼" transform="translate(-168 -1585)">
+    <circle id="타원_3213" data-name="타원 3213" class="cls-1" cx="27" cy="27" r="27" transform="translate(168 1585)"/>
+    <g id="그룹_140196" data-name="그룹 140196" transform="translate(179 1598)">
+      <text id="시민증" class="cls-2" transform="translate(16 24)"><tspan x="-16.26" y="0">시민증</tspan></text>
+      <path id="Icon_ion-ios-arrow-forward" data-name="Icon ion-ios-arrow-forward" class="cls-3" d="M3.842,4.808.2,1.171A.685.685,0,0,1,.2.2a.693.693,0,0,1,.974,0L5.3,4.321a.686.686,0,0,1,.02.948L1.179,9.419A.688.688,0,0,1,.2,8.448Z" transform="translate(11 5.5) rotate(-90)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="110" viewBox="0 0 170 110">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.066" y1="0.934" x2="0.934" y2="0.057" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6285eb"/>
+      <stop offset="1" stop-color="#97b9ff"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="사각형_96820" data-name="사각형 96820" width="36.362" height="26.035" fill="none" stroke="#fff" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="생활정보" transform="translate(-20 -642)">
+    <rect id="사각형_96784" data-name="사각형 96784" width="170" height="110" rx="8" transform="translate(20 642)" fill="url(#linear-gradient)"/>
+    <text id="생활정보-2" data-name="생활정보" transform="translate(40 681)" fill="#fff" font-size="18" font-family="Gwangyang Touching" letter-spacing="-0.025em"><tspan x="0" y="0">생활정보</tspan></text>
+    <text id="바로가기" transform="translate(41 705)" fill="#fff" font-size="14" font-family="Pretendard-Light, Pretendard" font-weight="300" letter-spacing="-0.025em"><tspan x="0" y="0">바로가기</tspan></text>
+    <g id="그룹_138071" data-name="그룹 138071" transform="translate(136.338 701.592)" opacity="0.4">
+      <g id="그룹_138070" data-name="그룹 138070" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="패스_266179" data-name="패스 266179" d="M31.927,10.735H7.1A3.55,3.55,0,0,1,3.547,7.185V4.549A3.55,3.55,0,0,1,7.1,1h24.83Z" transform="translate(0.651 0.183)" fill="none" stroke="#fff" stroke-width="3"/>
+        <path id="패스_266180" data-name="패스 266180" d="M31.927,10.735H7.1A3.55,3.55,0,0,1,3.547,7.185V4.549A3.55,3.55,0,0,1,7.1,1h24.83Z" transform="translate(0.651 0.183)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="패스_266181" data-name="패스 266181" d="M30.126,10.734h-2.6V1h2.6" transform="translate(5.052 0.183)" fill="none" stroke="#fff" stroke-width="3"/>
+        <path id="패스_266182" data-name="패스 266182" d="M30.126,10.734h-2.6V1h2.6" transform="translate(5.052 0.183)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="패스_266183" data-name="패스 266183" d="M29.38,18.96H4.549A3.55,3.55,0,0,1,1,15.41V12.774A3.55,3.55,0,0,1,4.549,9.225H29.38Z" transform="translate(0.184 1.693)" fill="none" stroke="#fff" stroke-width="3"/>
+        <path id="패스_266184" data-name="패스 266184" d="M29.38,18.96H4.549A3.55,3.55,0,0,1,1,15.41V12.774A3.55,3.55,0,0,1,4.549,9.225H29.38Z" transform="translate(0.184 1.693)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="패스_266185" data-name="패스 266185" d="M27.579,18.959h-2.6V9.225h2.6" transform="translate(4.584 1.692)" fill="none" stroke="#fff" stroke-width="3"/>
+        <path id="패스_266186" data-name="패스 266186" d="M27.579,18.959h-2.6V9.225h2.6" transform="translate(4.584 1.692)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="패스_266187" data-name="패스 266187" d="M22.175,22.4l-2.266-1.252L17.643,22.4V13.337h4.532Z" transform="translate(3.238 2.447)" fill="none" stroke="#fff" stroke-width="3"/>
+        <path id="패스_266188" data-name="패스 266188" d="M22.175,22.4l-2.266-1.252L17.643,22.4V13.337h4.532Z" transform="translate(3.238 2.447)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+    <path id="Icon_ion-ios-arrow-forward" data-name="Icon ion-ios-arrow-forward" d="M13.691,9.256,11.375,6.941a.436.436,0,0,1,0-.618.441.441,0,0,1,.62,0l2.624,2.623a.437.437,0,0,1,.013.6L12,12.19a.438.438,0,0,1-.62-.618Z" transform="translate(81.813 690.743)" fill="#fff"/>
+  </g>
+</svg>

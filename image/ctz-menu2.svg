@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="110" viewBox="0 0 170 110">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.066" y1="0.934" x2="0.934" y2="0.057" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#68a5f0"/>
+      <stop offset="1" stop-color="#7ab5fc"/>
+    </linearGradient>
+  </defs>
+  <g id="복지서비스" transform="translate(-200 -522)">
+    <rect id="사각형_96783" data-name="사각형 96783" width="170" height="110" rx="8" transform="translate(200 522)" fill="url(#linear-gradient)"/>
+    <text id="복지서비스-2" data-name="복지서비스" transform="translate(220 561)" fill="#fff" font-size="18" font-family="Gwangyang Touching" letter-spacing="-0.025em"><tspan x="0" y="0">복지서비스</tspan></text>
+    <text id="바로가기" transform="translate(221 585)" fill="#fff" font-size="14" font-family="Pretendard-Light, Pretendard" font-weight="300" letter-spacing="-0.025em"><tspan x="0" y="0">바로가기</tspan></text>
+    <g id="그룹_138066" data-name="그룹 138066" transform="translate(324.111 580.987)">
+      <g id="그룹_138067" data-name="그룹 138067" transform="translate(1 2.961)" opacity="0.4">
+        <path id="패스_266161" data-name="패스 266161" d="M18.917,1a5.972,5.972,0,0,0-5.972,5.972A5.972,5.972,0,1,0,1.033,7.6,16.34,16.34,0,0,0,6.389,19.105l6.556,5.926L19.5,19.105A16.343,16.343,0,0,0,24.856,7.6,5.972,5.972,0,0,0,18.917,1" transform="translate(-1 -1)" fill="none" stroke="#fff" stroke-width="3"/>
+        <path id="패스_266162" data-name="패스 266162" d="M18.917,1a5.972,5.972,0,0,0-5.972,5.972A5.972,5.972,0,1,0,1.033,7.6,16.34,16.34,0,0,0,6.389,19.105l6.556,5.926L19.5,19.105A16.343,16.343,0,0,0,24.856,7.6,5.972,5.972,0,0,0,18.917,1Z" transform="translate(-1 -1)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+    <path id="Icon_ion-ios-arrow-forward" data-name="Icon ion-ios-arrow-forward" d="M13.691,9.256,11.375,6.941a.436.436,0,0,1,0-.618.441.441,0,0,1,.62,0l2.624,2.623a.437.437,0,0,1,.013.6L12,12.19a.438.438,0,0,1-.62-.618Z" transform="translate(261.813 570.744)" fill="#fff"/>
+  </g>
+</svg>
