@@ -57,7 +57,7 @@ img { border: 0; display: block; }
 
 .m-wwrap{position: relative; width: 100vw; height: 100vh; overflow: auto; /*padding: 19px;*/}
 /*.m-wwrap:before{content:'';display: inline-block;background: url("../image/mobile-bg.svg") center no-repeat;width: 435px;height: 883px;position: absolute;!* padding: 19px; *!top: -19px;left: -22px;}*/
-.m-wrap{width:100%;height: 755px;overflow-y: auto;border-top-left-radius: 16px;border-top-right-radius: 16px;z-index: 1;position: relative;}
+.m-wrap{width:100%;margin-bottom: 97px;overflow-y: auto;border-top-left-radius: 16px;border-top-right-radius: 16px;z-index: 1;position: relative;}
 .intro{height: 100%;}
 .intro .intro-head{background: url("../image/intro-head.svg") center top no-repeat;width: 100%;height: 75px;}
 .intro .intro-cont-bg{width: 100%;height: calc(100% - 75px);display: flex;justify-content: center;align-items: center;}
@@ -78,7 +78,7 @@ img { border: 0; display: block; }
 }
 .main-ctz .ctz-menu ul li{}
 .main-ctz .ctz-menu ul li a{width:100%;height:100%;display:inline-block;}
-.footer{background: url("../image/footer.svg") center no-repeat;position: absolute;width: 390px;height: 97px;left: 50%;bottom: 37px;z-index: 9;display: flex;justify-content: center;transform: translateX(-50%);border-bottom-left-radius: 16px;border-bottom-right-radius: 16px;}
+.footer{position: fixed; bottom: 0; background: url("../image/footer.svg") center no-repeat;width: 390px;height: 97px;left: 50%;bottom: 0;z-index: 9;display: flex;justify-content: center;transform: translateX(-50%);border-bottom-left-radius: 16px;border-bottom-right-radius: 16px;}
 .footer button.footer-btn{background: url("../image/footer-ctz.svg") center no-repeat;width:54px;height:54px;margin: 0 auto;margin-top: -8px;border: none;cursor: pointer;}
 .footer button.footer-btn2{background: url("../image/footer-nctz.svg") center no-repeat;}
 
@@ -97,7 +97,7 @@ img { border: 0; display: block; }
 
 /* 시민증 */
    #actionSheet {
-    position: absolute;
+    position: fixed;
     bottom: 38px;
     left: 0;
     width: 100%;
